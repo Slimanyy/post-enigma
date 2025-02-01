@@ -11,9 +11,7 @@ const config: HardhatUserConfig = {
     sepolia: {
       url: ALCHEMY_API_KEY,
       accounts: [`0x${PRIVATE_KEY}`]
-  
-
-    },
+      },
     polygonAmoy: {
       url: ALCHEMY_AMOY_KEY_URL,
       accounts: [`0x${PRIVATE_KEY}`]
